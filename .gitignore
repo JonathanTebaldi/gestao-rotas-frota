@@ -1,0 +1,42 @@
+﻿# Credenciais
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# QGIS
+*.qgz~
+*.qgs~
+*.qgd
+*.qgd-wal
+*.qgd-shm
+
+# Temporários
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+__pycache__/
+
+# Java / Maven
+target/
+.idea/
+*.iml
+
+# React / Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Dados privados
+data/private/
+data/confidential/
+
+# Backups de bancos
+*.dump
+*.backup
